@@ -7,9 +7,9 @@ O objetivo central deste projeto é desenvolver um modelo preciso capaz de reali
 ## Resultados
 Os modelos foram avaliados usando métricas de erro para determinar a precisão das previsões para a precipitação máxima mensal:
 
-- LSTM (128 camadas): O erro médio foi de 28.48.
-- Redes Neurais Convolutivas (CNNs - 256 camadas): O erro médio foi de 34.47.
-- GRU (Gated Recurrent Unit - 256 camadas): O erro médio foi de 29.38.
+- LSTM (128 camadas): O erro quadrático médio foi de 28.48.
+- Redes Neurais Convolutivas (CNNs - 256 camadas): O erro quadrático médio foi de 34.47.
+- GRU (Gated Recurrent Unit - 256 camadas): O erro quadrático médio foi de 29.38.
 
 Surpreendentemente, mesmo com uma estrutura mais enxuta de 128 camadas, o modelo LSTM demonstrou uma capacidade superior na captura de padrões sequenciais para prever a precipitação máxima mensal. Apesar das CNNs e GRU possuírem o dobro de camadas, o modelo LSTM mostrou-se mais eficaz na representação e previsão dos passos seguintes na série temporal.
 
