@@ -10,6 +10,7 @@ Os modelos foram avaliados usando métricas de erro para determinar a precisão 
 - LSTM (128 camadas): O erro médio foi de 28.48.
 - Redes Neurais Convolutivas (CNNs - 256 camadas): O erro médio foi de 34.47.
 - GRU (Gated Recurrent Unit - 256 camadas): O erro médio foi de 29.38.
+
 Surpreendentemente, mesmo com uma estrutura mais enxuta de 128 camadas, o modelo LSTM demonstrou uma capacidade superior na captura de padrões sequenciais para prever a precipitação máxima mensal. Apesar das CNNs e GRU possuírem o dobro de camadas, o modelo LSTM mostrou-se mais eficaz na representação e previsão dos passos seguintes na série temporal.
 
 Este resultado ressalta a capacidade única das LSTM em capturar e reter informações de longo prazo, isso a partir de decisões das portas de entrada e esquecimento na atualização con contexto, demonstrando um melhor desempenho na previsão da precipitação máxima mensal para a região de Alto Merim Grajau no período estudado.
