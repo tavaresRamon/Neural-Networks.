@@ -1,10 +1,10 @@
 ## Previsão de Precipitação Máxima Mensal utilizando Redes Neurais Recorrentes e Redes Convolutivas
 Este repositório abriga um projeto de aprendizado de máquina focado na previsão da precipitação máxima mensal na região de Alto Merim Grajau, localizada no estado do Maranhão. Os dados históricos de 1950 a 2004 foram utilizados para desenvolver e comparar três modelos distintos: redes neurais convolutivas (CNNs), redes neurais recorrentes LSTM (Long Short-Term Memory) e GRU (Gated Recurrent Unit).
 
-Objetivo
+## Objetivo
 O objetivo central deste projeto é desenvolver um modelo preciso capaz de realizar previsões confiáveis da precipitação máxima mensal. A abordagem adotada engloba a análise e comparação de diferentes arquiteturas de redes neurais, permitindo a identificação da mais eficaz para capturar os padrões temporais presentes nos dados climáticos.
 
-Resultados
+## Resultados
 Os modelos foram avaliados usando métricas de erro para determinar a precisão das previsões para a precipitação máxima mensal:
 
 LSTM (128 camadas): O erro médio foi de 28.48.
